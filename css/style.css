@@ -1,0 +1,63 @@
+.back {
+    background-image: url(
+        ../images/beach.jpeg
+    );
+    width: 100%;
+    height: 750px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.airplane {
+    position: absolute;
+    width: 300px;
+    top: 70px;
+    left: 200px;
+    animation: airplane 7s infinite;
+}
+ @keyframes airplane {
+    from {left: 0px;}
+    to {left: 1000px;}
+  }
+
+  .people {
+    position: absolute;
+    width: 300px;
+    top: 70px;
+    left: 200px;
+    animation: people 7s infinite;
+  }
+
+  @keyframes people {
+    from {left: 0px;}
+    50% {top: 400px;}
+    to {left: 1000px;}
+  }
+
+  .sun {
+    position: absolute;
+    width: 300px;
+    top: -80px;
+    animation: sun 7s infinite;
+  }
+
+  @keyframes sun {
+    from {width: 200px;}
+    50%{width: 400px;}
+    to {width: 200px;}
+  }
+
+  .sos {
+    position: absolute;
+    width: 250px;
+    top: 550px;
+    animation: sos 7s infinite;
+    left: 550px;
+  }
+
+  @keyframes sos {
+    from {width: 200px;}
+    50%{width: 400px;}
+    to {width: 200px;}
+  }
